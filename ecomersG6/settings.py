@@ -83,6 +83,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'djoser',
 ]
+
 SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -96,6 +97,8 @@ MIDDLEWARE = [
     'oscar.apps.basket.middleware.BasketMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
+
+OSCARAPI_PRODUCT_FIELDS = ["id", "title", "images", "prices", "url"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
