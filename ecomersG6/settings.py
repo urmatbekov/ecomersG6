@@ -103,21 +103,9 @@ OSCARAPI_PRODUCT_FIELDS = ["id", "title", "images", "price", "url"]
 CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
-    # 'DEFAULT_PERMISSION_CLASSES': (
-    #     'rest_framework.permissions.IsAuthenticatedOrReadOnly',
-    #     'simpleblog.permissions.IsOwnerOrReadOnly'
-    # ),
-    # 'DEFAULT_FILTER_BACKENDS': [
-    #     'django_filters.rest_framework.DjangoFilterBackend',
-    #     'rest_framework.filters.SearchFilter',
-    #     'rest_framework.filters.OrderingFilter',
-    # ],
     'DEFAULT_PAGINATION_CLASS': 'ecomersG6.pagination.SerializerPagination',
-    # 'DEFAULT_METADATA_CLASS': 'news.metadata.MyMetaData',
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
-        # 'django_expiring_token.authentication.ExpiringTokenAuthentication'
     ],
 }
 
