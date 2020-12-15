@@ -1,7 +1,7 @@
 SECRET_KEY = 'osemb!qj9--mi%-8#oqh8fq3a-07ns0n@xfdscc6c6bd#%^yog'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['ecommerce-7-api.itpark.edu.kg']
 DATABASES = {
