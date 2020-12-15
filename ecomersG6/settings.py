@@ -116,7 +116,7 @@ REST_FRAMEWORK = {
     # 'DEFAULT_METADATA_CLASS': 'news.metadata.MyMetaData',
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
-        # 'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
         # 'django_expiring_token.authentication.ExpiringTokenAuthentication'
     ],
 }
