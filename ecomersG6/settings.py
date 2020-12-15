@@ -98,7 +98,7 @@ MIDDLEWARE = [
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
-# OSCARAPI_PRODUCT_FIELDS = ["id", "title", "images", "prices", "url"]
+OSCARAPI_PRODUCT_FIELDS = ["id", "title", "images", "price", "url"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
