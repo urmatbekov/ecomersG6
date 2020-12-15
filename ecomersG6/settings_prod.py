@@ -9,7 +9,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'grup_6',
         'USER': 'grup_6',
-        'PASSWORD': 'Grup__98_6!',
+        'PASSWORD': 'Grup_98_6!',
         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
         'PORT': '3306',
         'OPTIONS': {
