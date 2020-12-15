@@ -38,10 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework.authtoken',
-    'djoser',
-    'oscarapi',
     'oscar.config.Shop',
     'oscar.apps.analytics.apps.AnalyticsConfig',
     'oscar.apps.checkout.apps.CheckoutConfig',
@@ -82,6 +78,10 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     'django.contrib.flatpages',
     'corsheaders',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'djoser',
+    'oscarapi',
 ]
 
 SITE_ID = 1
